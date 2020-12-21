@@ -1,0 +1,286 @@
+@media screen and (max-width:1150px) {
+
+  .head-menu-list{
+    display:none;
+  }
+
+  .head-wrappar , .head-menu, .foot-logo {
+    width:100%;
+  }
+
+  .head-menu {
+    border-bottom:1px solid #000;
+    text-align:center;
+  }
+
+  .head-menu li{
+    float:none;
+  }
+
+  .logo a{
+    width:auto;
+    display:inline-block;;
+  }
+
+
+  .nav-yohaku{
+    height:80px;
+  }
+
+  .globalMenuSp img{
+    width:100%;
+    height:auto;
+    margin-bottom:40px;
+  }
+
+  .nav-menu div{
+    font-size: 22px;
+    width:50%;
+    height:200px;
+    line-height: 50px;
+  }
+
+  .nav-menu a{
+    font-weight:bold;
+    display: inline-block;
+    border:2px solid #e6b422;
+    border-radius:25px;
+    width:80%;
+    height:80%;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color:#333;
+    background-color: #fff;
+    opacity:0.85;
+  }
+
+  .nav-menu a:hover{
+    background-color: #ddd;
+    opacity:1;
+  }
+
+  .nav-menu i{
+    margin-top:25px;
+    font-size: 70px;
+    width:100%;
+  }
+
+
+  /* ============================
+  ここからハンバーガーメニュー
+  ===============================*/
+
+  /*　ハンバーガーボタン　*/
+  .hamburger, .globalMenuSp {
+    display: block;
+  }
+
+  .hamburger span:nth-child(1) {
+    top: 10px;
+  }
+  .hamburger span:nth-child(2) {
+    top: 20px;
+  }
+  .hamburger span:nth-child(3) {
+    top: 30px;
+  }
+
+  /* ナビ開いてる時のボタン */
+  .hamburger.active span:nth-child(1) {
+    top : 16px;
+    left: 6px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform   : rotate(-45deg);
+    transform        : rotate(-45deg);
+  }
+
+  .hamburger.active span:nth-child(2),
+  .hamburger.active span:nth-child(3) {
+    top: 16px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform   : rotate(45deg);
+    transform        : rotate(45deg);
+  }
+
+  nav.globalMenuSp {
+    position: fixed;
+    z-index : -1;
+    top  : 0;
+    left : 0;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    transform: translateX(100%);
+    transition: all 0.6s;
+    width: 100%;
+    height:100%;
+    border: 1px solid #000;
+    overflow: auto;
+  }
+  nav.globalMenuSp ul {
+    background: #fff;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+
+  nav.globalMenuSp ul li {
+    font-family: "Hannari", serif;
+    font-weight:bold;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #000;
+  }
+  nav.globalMenuSp ul li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  nav.globalMenuSp ul li:hover{
+    background :#ddd;
+  }
+
+  nav.globalMenuSp ul li a {
+    display: block;
+    color: #e6b422;
+    padding: 1em 0;
+  }
+
+  /* このクラスを、jQueryで付与・削除する */
+  nav.globalMenuSp.active {
+    transform: translateY(0%);
+  }
+
+  .other_main {
+    width:100%;
+  }
+
+  .other_main h2 {
+    text-align:center;
+  }
+
+  .other_main h2{
+    margin:0 auto;
+  }
+
+  .schedule {
+    width:90%;
+  }
+
+  .sche-img img{
+    width:80%;
+  }
+
+  .midasi {
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+
+  .midasi:before {
+    left:-50px;
+  }
+  .midasi:after {
+    right: -50px;
+  }
+
+  .corona h3 {
+    text-align:center;
+    font-size:22px;
+  }
+
+  .space, .mar2 {
+    display: none;
+  }
+
+  .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10 {
+    width:100%;
+  }
+
+  .c2, .c4, .c6, .c8, .c10 {
+    background-color:#CCFFFF;
+    border:2px dotted #000;
+    margin:40px 0;;
+  }
+
+  .c1, .c3, .c5, .c7, .c9{
+    border-right:none;
+  }
+
+  .onegai {
+    display: block;
+    font-weight:bold;
+    font-size:15px;
+    text-align:center;
+  }
+
+  .corona_img {
+    margin-top:50px;
+    float:none;
+    width:80%;
+    margin:50px auto 0 auto;
+  }
+
+  .corona_img img{
+    height:auto;
+    max-width:300px;
+    width:100%;
+  }
+
+}
+
+@media screen and (max-width:520px) {
+  .logo a img{
+    height:80px;
+  }
+
+  .head-menu {
+    height:82px;
+  }
+
+  .head-menu li{
+    line-height:0px;
+  }
+
+  .yohaku {
+    height:82px;
+  }
+
+  .globalMenuSp img {
+    display:none;
+  }
+
+  .globalMenuSp {
+    background-image: url('images/hammenu_img2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:80px;
+    height:840px;
+  }
+
+  .hamburger {
+    right : 16px;
+    top   : 20px;
+  }
+
+  .nav-menu {
+    margin-top:40px;
+  }
+
+  .nav-menu a{
+    font-size:16px;
+  }
+
+  .invite_img1{
+    display:none;
+  }
+
+  .invite_img2{
+    display:block;
+  }
+
+  .sche-img img{
+    width:100%;
+  }
+}
