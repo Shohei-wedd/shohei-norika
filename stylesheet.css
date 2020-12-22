@@ -84,7 +84,7 @@ h2:after {
   height:100%;
   width:100%;
   text-align:center;
-  font-family: 'Sawarabi Mincho', sans-serif;
+  font-family: 'Noto Serif JP', serif;
   font-weight:bold;
   color:#e6b422;
 }
@@ -169,7 +169,7 @@ h1{
   font-size:40px;
   margin:0;
   padding-top:150px;
-  font-family: 'Sawarabi Mincho', sans-serif;
+  font-family: 'Noto Serif JP', serif;
   font-weight:bold;
   color:#e6b422;
 }
@@ -196,7 +196,7 @@ h1{
 }
 
 .greet p{
-  font-family: 'Sawarabi Mincho', sans-serif;
+  font-family: 'Noto Serif JP', serif;
   font-size:18px;
 }
 
